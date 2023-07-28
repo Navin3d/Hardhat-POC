@@ -17,10 +17,10 @@ Network setup to deploy to be done inside ```harhat.config.js```
 ```bash
     networks: {
         ganache: {
-        url: "http:localhost:7545",
-        accounts: [
-            "your account private key here"
-        ]
+            url: "http:localhost:7545",
+            accounts: [
+                "your account private key here"
+            ]
         }
     }
 ```
